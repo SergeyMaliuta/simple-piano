@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(139, 139, 139);
+}
+
+#piano {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 3vmin solid #3f3f3f;
+  border-radius: 20px;
+  width: 98vmin;
+  height: 33vmin;
+}
+
+.whiteNote {
+  background-color: white;
+  border-right: 0.1vmin solid black;
+  box-sizing: border-box;
+  height: 100%;
+  width: 7vmin;
+  float: left;
+}
+
+.blackNote {
+  background-color: #3f3f3f;
+  height: 65%;
+  width: 3.5vmin;
+  transform: translateX(5.5vmin);
+}
